@@ -1,0 +1,57 @@
+# BEGIN REMOVE SLUG CUSTOM POST TYPE RULES
+RewriteRule ^product/(.+)/$ /$1 [R=301,L]
+RewriteRule ^product_variation/(.+)/$ /$1 [R=301,L]
+RewriteRule ^/(.+)/$ /$1 [R=301,L]
+RewriteRule ^shop_order_refund/(.+)/$ /$1 [R=301,L]
+RewriteRule ^/(.+)/$ /$1 [R=301,L]
+RewriteRule ^/(.+)/$ /$1 [R=301,L]
+RewriteRule ^/(.+)/$ /$1 [R=301,L]
+RewriteRule ^/(.+)/$ /$1 [R=301,L]
+# END REMOVE SLUG CUSTOM POST TYPE RULES
+
+# compress text, html, javascript, css, xml:
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/xml
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE application/xml
+AddOutputFilterByType DEFLATE application/xhtml+xml
+AddOutputFilterByType DEFLATE application/rss+xml
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/x-javascript
+AddType x-font/otf .otf
+AddType x-font/ttf .ttf
+AddType x-font/eot .eot
+AddType x-font/woff .woff
+AddType image/x-icon .ico
+AddType image/png .png
+
+# STRONG HTACCESS PROTECTION
+<Files ~ "^.*\.([Hh][Tt][Aa])">
+order allow,deny
+deny from all
+satisfy all
+</Files>
+
+<files wp-config.php>
+order allow,deny
+deny from all
+</files>
+
+<files wp-login.php>
+Order Deny,Allow
+Allow from all
+</files>
+
+# BEGIN WordPress
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
