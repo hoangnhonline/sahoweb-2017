@@ -41,13 +41,13 @@ get_header(); ?>
 </div>
 <?php endwhile;?>
 <div class="form">
-<input type="text" style="    border: 1px solid #ff6600;
+<input type="text" style="    border: 1px solid #0D97FF;
     padding: 9px 15px;
     width: 90%;
     float: left;" placeholder="Nhập tên domain muốn kiểm tra"/>
-<button style="background: #ff6600;
+<button style="background: #0D97FF;
     padding: 9px 15px;
-    border: 1px solid #ff6600;
+    border: 1px solid #0D97FF;
     color: #fff;
     width: 10%;">Kiểm tra</button>
 </div>
@@ -57,8 +57,8 @@ get_header(); ?>
 <table width="100%">
 <tbody>
 <tr>
-<td style="color:#ff6600;width:80%"><i class="fa fa-check-circle-o"></i> Domain.vn</td>
-<td style="background:#ff6600;padding:8px 25px;color:#fff;text-align:center">Liên hệ đăng ký</td>
+<td style="color:#0D97FF;width:80%"><i class="fa fa-check-circle-o"></i> Domain.vn</td>
+<td style="background:#0D97FF;padding:8px 25px;color:#fff;text-align:center">Liên hệ đăng ký</td>
 </tr>
 </table>
 

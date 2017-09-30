@@ -170,7 +170,7 @@ if ($(window).width() >= 970 && $(window).width() < 1150){
             config.animateIn="fadeInUp";
           $(this).owlCarousel(config);
         });
-	$('<i style="color:#ff6600; padding-right:8px" class="fa fa-arrow-circle-o-right"></i>').insertBefore('aside ul.menu a');
+	$('<i style="color:#0D97FF; padding-right:8px" class="fa fa-arrow-circle-o-right"></i>').insertBefore('aside ul.menu a');
 $('.menu-item-has-children a').addClass('parent');
 	$('.sub-menu a').removeClass();
 $('#menu-menu .menu-item-has-children .sub-menu .menu-item-has-children a').addClass('parentC');

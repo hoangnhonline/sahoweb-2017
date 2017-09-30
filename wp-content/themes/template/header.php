@@ -315,7 +315,7 @@ display:inline-block
 	    top: 100%;
     width: 290px;
 	border:1px solid #999;
-	border-left:1px solid #ff6600;
+	border-left:1px solid #0D97FF;
 	margin:-2px!important;
 }
 .sub-menu a{
@@ -335,7 +335,7 @@ display:inline-block
     top: 0;
 }
 .sub-menu li:hover{
-	background:#ff6600!important
+	background:#0D97FF!important
 }
 .sub-menu li:hover a{
 	color:#fff!important
@@ -347,7 +347,7 @@ display:inline-block
 	color:inherit!important
 }
 .sub-menu li .sub-menu li:hover{
-	background:#ff6600!important
+	background:#0D97FF!important
 }
 .sub-menu li .sub-menu li:hover a{
 	color:#fff!important
@@ -396,7 +396,7 @@ text-align: center;
     font-size: 35px;
     font-weight: 500;
     padding: 0 5px;
-    background: #ff6600;
+    background: #0D97FF;
 }
 .owl-controls .owl-prev i,
 .owl-controls .owl-next i{
@@ -529,7 +529,7 @@ font-size:13px;
 }
 .info strong:before{
 	content:'';
-	background:#ff6600;
+	background:#0D97FF;
 	position:absolute;
 	height:2px;
 	width:90px;
@@ -629,7 +629,7 @@ section:nth-child(2){
 	padding-bottom:12px
 }
 .cat-rel li:hover a{
-	color:#ff6600
+	color:#0D97FF
 }
 .cat{
 	display:inline-block;
@@ -662,7 +662,7 @@ height: auto;
 	padding-left:15px
 }
 .cat li:hover h3{
-	color:#ff6600!important
+	color:#0D97FF!important
 }
 .cat li h3{
 	    font-size: 15px;
@@ -680,7 +680,7 @@ aside iframe{
 	margin:10px 0!important
 }
 .tags li{
-	    background: #ff6600;
+	    background: #0D97FF;
     display: inline-block;
     padding: 3px 20px;
     border-radius: 20px;
@@ -691,7 +691,7 @@ aside iframe{
 	background:none
 }
 .tags li:hover{
-	background:#ff6600;
+	background:#0D97FF;
 }
 .tags li:hover a{
 	color:#fff
@@ -751,7 +751,7 @@ margin-top:0;
     overflow: hidden;
 }
 .products li:hover h3{
-	color:#ff6600
+	color:#0D97FF
 }
 .productss{
 	    display: inline-block;
@@ -873,7 +873,7 @@ margin-top:0;
     text-transform: uppercase;
 }
 .title-box{
-	    background: #ff6600;
+	    background: #0D97FF;
     color: #fff;
     padding: 10px;
     text-transform: uppercase;
@@ -898,7 +898,7 @@ aside ul.menu a{
 	color:#333
 }
 aside ul.menu li:hover a{
-	color:#ff6600;
+	color:#0D97FF;
 }
 
 aside{
@@ -1020,7 +1020,7 @@ aside div p{
     bottom: 0;
     left: 0;
     width: 100%;
-    background: #ff6600;
+    background: #0D97FF;
     color: #fff;
     padding: 5px;
     display: block;
@@ -1297,7 +1297,7 @@ section{
 }
 
 nav.menu ul li.current-menu-item a{
-	color:#ff6600!important
+	color:#0D97FF!important
 }
 .paragraph{
 	    margin: 30px 0 0;
@@ -2169,14 +2169,14 @@ option {border:1px solid #ab8e00}
 	padding:0 15px 10px
 }
 .dv h3{
-	color: #ff6600;
+	color: #0D97FF;
     text-transform: uppercase;
 }
 .dv h3:after{
 	content:'';
 	width:100%;
 	max-width:220px;
-	background:#ff6600;
+	background:#0D97FF;
 	height:2px;
 	margin:15px auto;
 	display:block
@@ -2186,7 +2186,7 @@ option {border:1px solid #ab8e00}
     font-size: 15px;
 }
 .dv a{
-	color: #ff6600;
+	color: #0D97FF;
     float: right;
 }
 .dv p{
@@ -2273,11 +2273,11 @@ position: relative;
 }
 .dtac .thumbs img{
 	border-radius:50%;
-	border:4px solid #ff6600
+	border:4px solid #0D97FF
 }
 .dtac .owl-controls .owl-prev,.dtac .owl-controls .owl-next{
 	background:none;
-	color:#ff6600;
+	color:#0D97FF;
 	top:38%
 }
 .process_top, .process_bottom{

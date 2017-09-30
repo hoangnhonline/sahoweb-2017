@@ -196,7 +196,7 @@ class footer extends WP_Widget {
     right: 2px;
     bottom: 0px;
     padding: 5px 25px;
-    background: #ff6600;
+    background: #0D97FF;
     color: rgb(255, 255, 255);
     cursor: pointer;
     border-radius: 4px 4px 0 0;    box-shadow: 3px 0px 7px -2px;"></span> 

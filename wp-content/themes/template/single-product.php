@@ -37,7 +37,7 @@
 <img class="mouse-over" src="http://iweb247.vn/wp-content/themes/iweb247/images/desktop_dark.png" width="40" height="22" alt="">
 <br><br>
 Liên hệ:<br>
-<span class="phone" style="color:#ff6600;font-weight:700">
+<span class="phone" style="color:#0D97FF;font-weight:700">
 0917 492 306 (Mr. Hoàng)</span>
 <br><br>
 <script src="https://apis.google.com/js/platform.js" async defer></script>
@@ -55,7 +55,7 @@ Liên hệ:<br>
 <script src='//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52d7960129197ed7' type='text/javascript'></script><br>
 <?php if(get_post_meta( get_the_ID(), 'Link demo', true)){?>
 	<a class="view" style="    padding: 7px 35px;
-    background: #ff6600;
+    background: #0D97FF;
     color: #fff;
     border-radius: 10px 0;" href="<?php echo site_url();?>/demo?url=<?php echo get_post_meta( get_the_ID(), 'Link demo', true);?>">Xem giao diện</a>
 <?php };?>
