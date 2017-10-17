@@ -4,10 +4,32 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
-	<?php wp_head();?>
-	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/assets/css/owl.css">
-	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/assets/css/sli.css">
+	<?php wp_head();?>	
 	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/assets/css/style.css">
+	<style type="text/css">
+		.page-title:after{			
+			<?php if(is_front_page()){?>
+			background: url(<?php echo get_template_directory_uri();?>/assets/images/line.png)no-repeat center;
+			<?php }else{?>
+			   background: url(<?php echo get_template_directory_uri();?>/assets/images/line.png)no-repeat left;
+			<?php };?>			
+		}
+		.page-title-2:after{		
+			background: url(<?php echo get_template_directory_uri();?>/assets/images/line-2.png)no-repeat center !important;
+		}
+		.title-cat-home:after{		
+			background:url(<?php echo get_template_directory_uri();?>/assets/images/line.png)no-repeat center;			
+		}	
+		.page-title-home:after{		
+		    background: url(<?php echo get_template_directory_uri();?>/assets/images/line.png)no-repeat center;		    
+		}
+		.ft:after{
+		    background: url(<?php echo get_template_directory_uri();?>/assets/images/line-3.png)no-repeat center!important;
+		}
+		.backTOP{
+			background:url(<?php echo get_template_directory_uri();?>/assets/images/top.png);			
+		}
+	</style>
 </head>
 <body <?php body_class();?>>
 	<header>
